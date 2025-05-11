@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Login_Suite]">
+  <test thread-count="5" name="Login_happyScenario(failed)">
+    <classes>
+      <class name="tests.Login_HappyScenario">
+        <methods>
+          <include name="OpenBrowser"/>
+          <include name="testLogin_CorrectEmailAndPassword"/>
+          <include name="CloseBrowser"/>
+          <include name="testLoginAndLogOut"/>
+        </methods>
+      </class> <!-- tests.Login_HappyScenario -->
+    </classes>
+  </test> <!-- Login_happyScenario(failed) -->
+</suite> <!-- Failed suite [Login_Suite] -->

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="false" name="Verify_Suite">
+  <test name="VerifyAllProductsAndDetails">
+    <classes>
+      <class name="tests.VerifyAllProductsAndDetails"/>
+    </classes>
+  </test> <!-- Test -->
+  
+    <test name="VerifyCategoryProducts">
+    <classes>
+      <class name="tests.VerifyCategoryProducts"/>
+    </classes>
+  </test> <!-- Test -->
+  
+     <test name="VerifyProductquantityinCart">
+    <classes>
+      <class name="tests.VerifyProductquantityinCart"/>
+    </classes>
+  </test> <!-- Test -->
+  
+     <test name="VerifyScrollUpDownUsingArrow">
+    <classes>
+      <class name="tests.VerifyScrollUpDownUsingArrow"/>
+    </classes>
+  </test> <!-- Test -->
+  
+     <test name="VerifyScrollUpDownWithoutArrowButton">
+    <classes>
+      <class name="tests.VerifyScrollUpDownWithoutArrowButton"/>
+    </classes>
+  </test> <!-- Test -->
+  
+       <test name="VerifyTestCasesPage">
+    <classes>
+      <class name="tests.VerifyTestCasesPage"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

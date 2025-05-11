@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="false" name="Cart_Suite">
+  <test name="AddToCart">
+    <classes>
+      <class name="tests.AddToCart"/>
+    </classes>
+  </test> <!-- Test -->
+  
+    <test name="RecommendedItems">
+    <classes>
+      <class name="tests.RecommendedItems"/>
+    </classes>
+  </test> <!-- Test -->
+  
+      <test name="DeleteFromCart">
+    <classes>
+      <class name="tests.DeleteFromCart"/>
+    </classes>
+  </test> <!-- Test -->
+  
+        <test name="DownloadInvoiceTest">
+    <classes>
+      <class name="tests.DownloadInvoiceTest"/>
+    </classes>
+  </test> <!-- Test -->
+  
+        <test name="AddReviewTest">
+    <classes>
+      <class name="tests.AddReviewTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

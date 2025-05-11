@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-05-11T20:51:20 EEST" name="Default suite" finished-at="2025-05-11T20:53:02 EEST" duration-ms="101609">
+    <groups>
+    </groups>
+    <test started-at="2025-05-11T20:51:20 EEST" name="Default test" finished-at="2025-05-11T20:53:02 EEST" duration-ms="101609">
+      <class name="tests.LoginBeforeCheckout">
+        <test-method is-config="true" signature="OpenBrowser()[pri:0, instance:tests.LoginBeforeCheckout@7096b474]" started-at="2025-05-11T20:51:20 EEST" name="OpenBrowser" finished-at="2025-05-11T20:51:26 EEST" duration-ms="5809" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenBrowser -->
+        <test-method signature="loginBeforeCheckout_HappyScenario(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:tests.LoginBeforeCheckout@7096b474]" started-at="2025-05-11T20:51:26 EEST" name="loginBeforeCheckout_HappyScenario" data-provider="loginData" finished-at="2025-05-11T20:53:01 EEST" duration-ms="95049" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[kholoud111@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[kholoud155312]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[kholoud khaled]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[El-Fayoum]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Itsa]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[01001386305]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[I want the order within 10 days]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Visa]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[345689692240]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[112]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[2027]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginBeforeCheckout_HappyScenario -->
+        <test-method is-config="true" signature="CloseBrowser()[pri:0, instance:tests.LoginBeforeCheckout@7096b474]" started-at="2025-05-11T20:53:01 EEST" name="CloseBrowser" finished-at="2025-05-11T20:53:02 EEST" duration-ms="698" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+      </class> <!-- tests.LoginBeforeCheckout -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

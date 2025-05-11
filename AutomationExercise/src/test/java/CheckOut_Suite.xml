@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="false" name="CheckOut_Suite">
+  <test name="RegisterBeforeCheckout">
+    <classes>
+      <class name="tests.RegisterBeforeCheckout"/>
+    </classes>
+  </test> <!-- Test -->
+  
+    <test name="LoginBeforeCheckout">
+    <classes>
+      <class name="tests.LoginBeforeCheckout"/>
+    </classes>
+  </test> <!-- Test -->
+  
+    <test name="RegisterWhileCheckout">
+    <classes>
+      <class name="tests.RegisterWhileCheckout"/>
+    </classes>
+  </test> <!-- Test -->
+  
+      <test name="CheckoutAddressTest">
+    <classes>
+      <class name="tests.CheckoutAddressTest"/>
+    </classes>
+  </test> <!-- Test -->
+  
+</suite> <!-- Suite -->

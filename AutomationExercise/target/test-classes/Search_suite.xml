@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="false" name="Search_Suite">
+  <test name="SearchAndCartPersistenceTest">
+    <classes>
+      <class name="tests.SearchAndCartPersistenceTest"/>
+    </classes>
+  </test> <!-- Test -->
+  
+    <test name="SearchByBrand">
+    <classes>
+      <class name="tests.SearchByBrand"/>
+    </classes>
+  </test> <!-- Test -->
+  
+    <test name="SearchProduct">
+    <classes>
+      <class name="tests.SearchProduct"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

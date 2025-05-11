@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="false" name="Subscribtion_Suite">
+  <test name="SubscriptionCartTest">
+    <classes>
+      <class name="tests.SubscriptionCartTest"/>
+    </classes>
+  </test> <!-- Test -->
+  
+    <test name="SubscriptionHomeTest">
+    <classes>
+      <class name="tests.SubscriptionHomeTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
